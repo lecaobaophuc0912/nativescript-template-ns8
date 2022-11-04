@@ -1,0 +1,43 @@
+<GridLayout class='sign-up-container' rows='auto, *' columns='*'>
+  <Label text="Sign Up" class='title'></Label>
+  <FlexboxLayout row='1' flexDirection="column" justifyContent="flex-start" alignItems="center">
+    <FlexboxLayout class='field-container' flexDirection='column' alignItems="flex-start" width='100%'>
+      <Label text="Email" class="form-label" textWrap="true"></Label>
+
+      <TextField id='email' #emailTextField [(ngModel)]="email" returnKeyType="next" class="form-text-field" height="40"
+        (blur)="onBlur('email')">
+      </TextField>
+      <StackLayout>
+        <Label *ngIf="showError('email')" class='error-message'>Email is required</Label>
+      </StackLayout>
+    </FlexboxLayout>
+
+    <FlexboxLayout class='field-container' flexDirection='column' alignItems="flex-start" width='100%'>
+      <Label text="Username" class="form-label" textWrap="true"></Label>
+
+      <TextField id='username' #usernameTextField [(ngModel)]="username" returnKeyType="next" class="form-text-field"
+        height="40" (blur)="onBlur('username')">
+      </TextField>
+      <StackLayout>
+        <Label *ngIf="showError('username')" class='error-message'>Username is required</Label>
+      </StackLayout>
+    </FlexboxLayout>
+
+    <FlexboxLayout class='field-container' flexDirection='column' alignItems="flex-start" width='100%'>
+      <Label text="Password" class="form-label" textWrap="true"></Label>
+
+      <TextField id='password' #passwordTextField [(ngModel)]="password" returnKeyType="done" secure='true'
+        class="form-text-field" (blur)="onBlur('password')" height="40">
+      </TextField>
+      <StackLayout>
+        <Label *ngIf="showError('password')" class='error-message'>Password is required</Label>
+      </StackLayout>
+    </FlexboxLayout>
+
+    <FlexboxLayout class='field-container' flexDirection='column' alignItems="flex-start" width='100%'>
+      <Button text="SIGN UP" class="btn-purple" (tap)="onSignUp()"></Button>
+    </FlexboxLayout>
+
+
+  </FlexboxLayout>
+</GridLayout>

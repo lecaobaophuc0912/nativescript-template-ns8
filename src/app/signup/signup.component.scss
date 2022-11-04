@@ -1,0 +1,44 @@
+@import '../../app-variables';
+
+.sign-up-container {
+    margin: 24 !important;
+    .title {
+        font-size: 30;
+        color: $color_purple;
+        font-weight: bold;
+        margin-bottom: 80;
+        vertical-align: center;
+        horizontal-align: center;
+    }
+    .field-container {
+        margin-bottom: 8;
+    }
+    .form-label {
+        margin-bottom: 4;
+    }
+    .form-text-field {
+        width: 100%;
+        height: 40;
+        background-color: #f6f8fb;
+        border-color: $color_purple;
+        border-width: 1;
+        border-radius: 8;
+        padding: 5;
+        color: $title_color;
+        font-size: 13;
+        margin-bottom: 4;
+    }
+    .error-message {
+        color: map-get($red-color, '200');
+        font-size: $font-size-14;
+    }
+
+    .btn-purple {
+        color: $color_white;
+        background-color: map-get($purple-color, '200');
+
+        height: 40;
+        width: 100%;
+        border-radius: 8;
+    }
+}

@@ -1,0 +1,162 @@
+// Import the theme’s variables. If you’re using a color scheme
+// other than “light”, switch the path to the alternative scheme,
+// for example '~nativescript-theme-core/scss/dark'.
+// @import '~nativescript-theme-core/core';
+
+$roboto: Roboto, sans-serif;
+$dosis: Dosis, Dosis-Bold;
+// Custom colors
+$background_blue_light: #f1f9ff !default;
+$background_button: #384ff2 !default;
+$background_primary_button: #3851ec !default;
+$background_secondary_button: #2fbb3e !default;
+$background_third_button: #854dff !default;
+$background_danger_button: #ff3d71 !default;
+$background_basic_button: #eaeff5 !default;
+$color-primary-transparent-500: rgba(157, 112, 255, 0.6) !default;
+$color-success-transparent-500: rgba(47, 187, 62, 0.6) !default;
+$color-info-transparent-500: rgba(56, 81, 236, 0.4) !default;
+$background_login: linear-gradient(to right, rgba(138, 152, 244, 0.6), rgba(153, 230, 161, 0.6)) !default;
+
+// Innoria Material Color
+$color_primary: #3851ec !default;
+$color_secondary: #2fbb3e !default;
+$color_accent: #ffaa00 !default;
+$color_purple: #854dff !default;
+$color_danger: #ff3d71 !default;
+$color_default: #3851ec !default;
+$color-basic-500: #eaeff5 !default;
+$color_field: #3261ba !default;
+$blue_dark: #0f1b1f !default;
+$blue_light: #02556e !default;
+// Red
+$color_red: #f44336;
+
+// Green
+$color_green: #43a047;
+
+// Black
+$color_black: #151a30;
+
+// White
+$color_white: #ffffff;
+
+$warning_dark: #f39c11 !default;
+$warning_light: #f2c112 !default;
+
+$error_dark: #d84039 !default;
+$error_light: #ed473f !default;
+
+// Gray
+$color_border: #b2b2b2;
+
+$page-icon-color: #d7d7d7 !default;
+$title_color: #3b3d40 !default;
+$button_color: #67696c !default;
+$input_border_color: #899199 !default;
+$input_placeholder_color: #c0c7cc !default;
+
+$gray-color: (
+  '100': #34383d,
+  '200': #1c1e21,
+  '300': #6f747c,
+  '400': #9096a1,
+  '500': #616161,
+  '600': #a3a3a3,
+  '700': #757575,
+  '800': #e5e5e5,
+  '900': #cbcfd3,
+  '1000': #c5cee0,
+  '1100': #707070,
+);
+$green-color: (
+  '100': #2fbb3e,
+  '200': #67bee9,
+);
+$blue-color: (
+  '100': #3851ec,
+  '200': #2153a0,
+  '300': #67bee9,
+  '400': #212153a0,
+  '500': #1e5baa1a,
+);
+$yellow-color: (
+  '100': #ffaa00,
+  '200': #fe7a00,
+);
+$red-color: (
+  '100': #f44336,
+  '200': #ff3d71,
+);
+
+$purple-color: (
+  '100': #5a4594,
+  '200': #854dff,
+);
+
+$color: (
+  'gray': $gray-color,
+  'green': $green-color,
+  'blue': $blue-color,
+  'yellow': $yellow-color,
+  'red': $red-color,
+  'purple': $purple-color,
+);
+
+// Space
+$space_1x: 4;
+$space_2x: 8;
+$space_3x: 12;
+$space_4x: 16;
+$space_5x: 20;
+$space_6x: 24;
+$space_7x: 28;
+$space_8x: 32;
+$space_9x: 36;
+$space_10x: 40;
+$space_11x: 44;
+$space_12x: 48;
+$space_23x: 92;
+
+// Font size
+$font_size_10: 10;
+$font_size_11: 11;
+$font_size_12: 12;
+$font_size_13: 13;
+$font_size_14: 14;
+$font_size_15: 15;
+$font_size_16: 16;
+$font_size_17: 17;
+$font_size_18: 18;
+$font_size_19: 19;
+$font_size_20: 20;
+$font_size_22: 22;
+$font_size_24: 24;
+$font_size_34: 34;
+$font_size_48: 48;
+$font_size_60: 60;
+$font_size_96: 96;
+
+// Font weight
+$font_weight_light: 100;
+$font_weight_regular: 300;
+$font_weight_medium: 400;
+$font_weight_bold: 600;
+$font_weight_extra_bold: 800;
+
+// UI
+// ActionBar
+$ab_background: $color_primary;
+$ab_color: $color_white;
+
+// Tab View
+$tab-text-color: $title_color;
+$tab-background-color: $color_white;
+$selected-tab-text-color: $color_primary;
+$android-selected-tab-highlight-color: $color_white;
+
+// Segmented Bar
+$segmented-bar-selected-background-color: $color_primary;
+$segmented-bar-color: $color_primary;
+
+$sizes: 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20, 24, 25, 30, 40, 50, 55, 60, 96;
